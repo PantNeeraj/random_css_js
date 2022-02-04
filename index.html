@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- <style>
+      .container {
+        border: 1px solid red;
+        padding: 10px;
+        display: grid;
+        /* grid-template-columns: repeat(3,2fr); */
+        grid-template-columns: 80px 80px 80px;
+        grid-template-rows: 120px 120px;
+        grid-gap: 5px;
+        /* justify-content: center;
+        align-items: center; */
+
+        height: 400px;
+      }
+      .items {
+        text-align: center;
+        background-color: aqua;
+        padding: 20px;
+        /* justify-self: center;
+        align-self: center; */
+        
+    
+      }
+      .items1{
+        grid-column: 1/span3;
+      }
+      
+    </style> -->
+    <style>
+      .container{
+        border: 1px solid red ;
+        height: 500px;
+        width: 80px;
+        display: flex;
+        flex-wrap: wrap;
+         align-content: space-between;
+        
+      }
+      .items{
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        color: #fff;
+        padding: 20px 20px;
+        font-size: 12px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="items1 " class="items items1">1</div>
+      <div id="items2 " class="items items2">2</div>
+      <!-- <div id="items3" class="items items3">3</div>
+      <div id="items4" class="items items4">4</div>
+      <div id="items5" class="items items5">5</div> -->
+    </div>
+
+
+
+    <div class="container">
+      <input type="text" placeholder="enter your age ">
+    </div>
+  </body>
+</html>

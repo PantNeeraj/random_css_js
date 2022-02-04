@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        width: 50%;
+        border: 1px solid red;
+        margin: auto;
+        border-radius: 10px;
+      }
+      input[type="number"] {
+        border: 1px solid teal;
+        line-height: 45px;
+        font-size: 22px;
+        border-radius: 5px;
+        width: 93%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h3>passport verification</h3>
+
+      <input
+        class="inputclass"
+        type="number"
+        placeholder="enter your age "
+        min="10"
+        max="60"
+      />
+      <button class="myBtn" style="margin-top: 15px">Submit</button>
+    </div>
+
+    <script>
+    //       var abc=  document.querySelector(".myBtn")
+    //         abc.addEventListener("click", function() {
+    //     alert("Enter your Age!");
+    //   });
+
+    //   var age = 19;
+    //   switch (true) {
+    //     case age <= 18:
+    //      alert("you are not elegible for passport");
+
+    //       break;
+    //     case age > 18 && age < 25:
+    //      alert("login on next day for passport");
+
+    //       break;
+
+    //     default:
+    //      alert("Enter the valid age");
+    //       break;
+    //   }
+
+
+
+    //   var age = 21;
+    //   switch (age) {
+    //     case 12:
+    //      alert("you are not elegible for passport");
+
+    //       break;
+    //       case 21:
+    //      alert("login  today for passport");
+
+    //       break;
+    //     case 24:
+    //      alert("login on next day for passport");
+
+    //       break;
+
+    //     default:
+    //      alert("Enter the valid age");
+    //       break;
+    //   }
+let age =31;
+let doesdrive=true;
+
+
+// if(age<=15 && doesdrive){
+//     alert("you can drive but to test")
+
+
+// }if(age>18 && doesdrive ){
+//     alert ("you can drive carefully")
+
+// } else if(age>25 || doesdrive){
+//     alert("awesome")
+
+// }else{
+//     alert("Enter right credentials")
+// }
+
+
+// document.write(age==="29" || doesdrive ? "you can drive to test": "you can't ride")
+
+
+let arr=[1,2,3,4,5,6,7]
+    
+    
+var total =0;
+for(let i =0;i<arr.length;i++){
+   
+    total = total + arr[i];
+   
+} 
+console.log(total)  
+
+
+ var less= arr.filter((e)=>{
+    return e<4;
+    
+ })
+ console.log(less)
+
+ var binary= arr.map((e)=>{
+     return e.toString(2);
+
+ })
+console.log(binary)
+
+ var odd=arr.filter((e)=>{
+     return e%2
+ })
+console.log(odd)
+
+var even=arr.filter((e)=>{
+    return e%2===0
+})
+console.log(even)
+
+var reduce=arr.reduce((acc,curv,index,array)=>{
+return acc=acc+curv
+},0)
+console.log(reduce)
+
+
+var Average=arr.reduce((acc,curv,index,array)=>{
+    let totalNo =arr.length
+    console.log(totalNo)
+    acc= acc+curv;
+    console.log(acc)
+   let  average=totalNo/acc
+
+   return average
+})
+console.log(Average)
+
+while(age<30 && doesdrive){
+    alert("you are awesome to go to drive")
+}
+do {
+   ncnvln 
+} while (x>5);
+
+
+
+
+
+
+// sorting three numbers
+
+let a,b,c;
+
+
+
+
+</script>
+  </body>
+</html>
